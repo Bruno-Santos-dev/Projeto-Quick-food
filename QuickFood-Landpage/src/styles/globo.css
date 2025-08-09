@@ -31,7 +31,9 @@
     --font-h3-size: 28px;
     --font-h3-weight: 600;
 
-    
+    --font-light-size: 16px;
+    --font-light-weight: 300;
+
     --font-body1-size: 18px;
     --font-body1-weight-regular: 500;
     
@@ -45,11 +47,6 @@
 a{
     text-decoration: none;
 }
-
-.active-menu {
-    font-weight: 500 !important;
-}
-
 
 .btn-primary {
     background-color: var(--color-primary);
@@ -102,6 +99,7 @@ p{
 
 li{
     list-style: none;
+    
     
 }
  
