@@ -44,7 +44,14 @@ header{
 .icons-header{
     display: flex;
     gap: 16px;
+    cursor: pointer;
 
+}
+
+.icons-header img:hover{
+    border-radius: 50%;
+    text-align: center;
+    transform: translateY(-10%);
 }
 
 .btn-login {
@@ -98,7 +105,7 @@ main{
     display: flex;
     align-items: center;
     gap: 24px;
-
+    cursor: pointer;
 }
 
 .btn-secondary{
@@ -224,6 +231,7 @@ transform: translateY(-10px);
     background-color: var(--color-primary);
     color: var(--color-White);
     border-radius: 8px;
+    cursor: pointer;
 }
 
 /* fim sessao Special-dishes */
@@ -301,6 +309,7 @@ transform: translateY(-10px);
     border-radius: 10px;
     background-color: var(--color-primary);
     color: var(--color-White);
+    cursor: pointer;
 }
 /* fim About-Us */
 /* inicio Subscribe */
@@ -351,6 +360,7 @@ form .btn-input{
     background-color: var(--color-primary);
     color: var(--color-White);
     border-radius: 8px;
+    cursor: pointer;
     
 }
 
@@ -389,6 +399,13 @@ footer{
     align-items: center;
     width: 100px;
     gap: 16px;
+
+}
+
+.socials img:hover{
+    transition: 0.5s;
+    transform: translateY(-10px);
+    
 }
 .navigation-footer{
     display: flex;
@@ -416,14 +433,20 @@ footer{
     text-decoration: none;
     color: var(--color-White);
     cursor: pointer;
+    
 }
+.navigation-footer ul li:hover{
+    transition: 0.5s;
+    transform: translateX(10px)
+}
+
 .copyright{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-top: 1px solid var(--color-White);
-    width: 100%;
+    width: 80%;
     height: 40px;
     gap: 16px;    
 }
